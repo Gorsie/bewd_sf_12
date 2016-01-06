@@ -5,7 +5,8 @@ class Movie < ActiveRecord::Base
   validates :rating, numericality: { greater_than_or_equal_to: 1, less_than_or_equal_to: 5, only_integer:true }
 
   def self.search_for(query)  
-  	#example SQL query: "title like '%Fear and Loathing%'" 
+
+self.where('title LIKE :query OR description LIKE :query OR year_released LIKE :query', query: "%#{query}%")  	#example SQL query: "title like '%Fear and Loathing%'" 
   	#use the built-in ActiveRecord function "where", check out the shirts app for an example
   end    
 end

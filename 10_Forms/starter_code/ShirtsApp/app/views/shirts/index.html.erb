@@ -2,18 +2,28 @@
 <p><%= notice %></p>
 
 <h3><%= link_to "+ Add New Shirt", new_shirt_path %></h3>
+<%= form_tag "/", method: "GET" do %>
+  <%= text_field_tag :q, params[:q] %>
+  <%= submit_tag "Search" %>
+<% end %>
 
 <br/>
 
-<% @shirts.each do |shirt| %>
-  <section>
-    <h3><%= link_to shirt.name, shirt_path(shirt.id) %></h3>
-    <p>
-      <%= shirt.description %>
-    </p>
-    <p>
-      <%= image_tag shirt.image %>
-    </p>
-  </section>
-<% end %>
+<%= render "list" %>
+
+
+<!-- =begins
+here the "/" takes us to the root url or in this case the homepage
+form_tag is a method in ruby that lets you make a form.. 
+
+so in this case we are setting a text field, its parameter will get stored in 'params' at qe.g. {}
+so the first time a user comes to the page there will be mothing in the q param, the user enters 'darwin'
+it will still be there if they go back to it 
+=end
+ -->
+
+
+
+
+
 

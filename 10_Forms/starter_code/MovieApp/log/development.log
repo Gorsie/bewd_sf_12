@@ -1,0 +1,733 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:49:20 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__1114979718878900769__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:53:35 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__3777927032700984795__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:53:39 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__3777927032700984795__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:54:00 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__3777927032700984795__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:54:02 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__3777927032700984795__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:54:07 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__3777927032700984795__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 20:54:57 -0800
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:376:in `check_pending!'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:364:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/logger_silence.rb:16:in `silence'
+  activerecord (4.0.0.rc1) lib/active_record/migration.rb:363:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:392:in `_run__3777927032700984795__call__callbacks'
+  activesupport (4.0.0.rc1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+  [1m[36m (3.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMovies (20130610234924)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "year_released" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130610234924"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddRatingToMovies (20130610235644)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "movies" ADD "rating" integer DEFAULT 3[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130610235644"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 21:00:35 -0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (2.0ms)
+  Rendered movies/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 531ms (Views: 501.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:00:36 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/_list.html.erb (2.0ms)
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:20 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (0.6ms)
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:22 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/_list.html.erb (0.3ms)
+  Rendered movies/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:10:26 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (0.6ms)
+  Rendered movies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:11:43 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=shawshank&commit=Search" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"shawshank", "commit"=>"Search"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/_list.html.erb (0.4ms)
+  Rendered movies/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:28 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=shawshank&commit=Search" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"shawshank", "commit"=>"Search"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (0.9ms)
+  Rendered movies/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:12:32 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=lego&commit=Search" for 127.0.0.1 at 2016-01-05 21:13:38 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"lego", "commit"=>"Search"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/_list.html.erb (0.4ms)
+  Rendered movies/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:39 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=lego&commit=Search" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"lego", "commit"=>"Search"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (0.4ms)
+  Rendered movies/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:41 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=lego&commit=Search" for 127.0.0.1 at 2016-01-05 21:13:42 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"lego", "commit"=>"Search"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/_list.html.erb (0.3ms)
+  Rendered movies/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:13:43 -0800
+
+
+Started GET "/movie" for 127.0.0.1 at 2016-01-05 21:17:58 -0800
+
+ActionController::RoutingError (No route matches [GET] "/movie"):
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc1) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc1) lib/rails/application.rb:96:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (0.4ms)
+  Rendered movies/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:18 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=list&commit=Search" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"list", "commit"=>"Search"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/_list.html.erb (0.5ms)
+  Rendered movies/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:22 -0800
+
+
+Started GET "/?utf8=%E2%9C%93&q=list&commit=Search" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"list", "commit"=>"Search"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/_list.html.erb (0.4ms)
+  Rendered movies/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-01-05 21:18:24 -0800

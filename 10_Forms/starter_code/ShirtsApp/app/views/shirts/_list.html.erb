@@ -1,0 +1,18 @@
+<!-- #this was about creating a partial view of the same page
+#e.g. it means you can use the same view but put more stuff on it -->
+
+<% @shirts.each do |shirt| %>
+ <section>
+   <h3><%= link_to shirt.name, shirt_path(shirt.id) %></h3>
+   <p>
+     <%= shirt.description %>
+   </p>
+   <p>
+     <%= image_tag shirt.image %>
+   </p>
+ </section>
+<% end %>
+
+
+
+
