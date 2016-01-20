@@ -29,7 +29,12 @@ class ShirtsController < ApplicationController
   def edit
   end
 
-  def update
+  def update if @shirt.save()
+    #if the shirt was successfully updates 
+    redirect_to @shirt
+  else #if the shirt wasn't successfully updated
+    render "edit"
+
   end
 
   def show
